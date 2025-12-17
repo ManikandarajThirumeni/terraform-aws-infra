@@ -1,0 +1,54 @@
+############################################
+# Terraform
+############################################
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform lock file (OPTIONAL – see note below)
+# Uncomment next line if you DO NOT want to commit provider lock file
+# .terraform.lock.hcl
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+############################################
+# Logs
+############################################
+*.log
+
+############################################
+# OS / Editor
+############################################
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+############################################
+# Secrets
+############################################
+*.pem
+*.key
+*.crt
+.env
